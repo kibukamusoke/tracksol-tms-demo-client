@@ -59,7 +59,8 @@ app.post('/terminalData', function (req, res) {
             });
 
             jsonfile.writeFile(file, arrayOfObjects, {spaces: 2}, function (err) {
-                if (err) console.error(err)
+                if (err) console.error(err);
+                res.status(200).send("Thank you. Data Received!");
             });
 
         })
