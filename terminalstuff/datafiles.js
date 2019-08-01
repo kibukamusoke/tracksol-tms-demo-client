@@ -38,7 +38,7 @@ module.exports = {
             stores.forEach((store, index) => {
                 fileData += store.id + '|' + store.code + '|' + store.name + '|' + store.id + '|\n';
                 if (stores.length === index + 1) { //finally
-                    completeDataFile += fileData + '\n';
+                    completeDataFile += fileData;
                     resolve('B=' + completeDataFile.length + '\n' + completeDataFile);
                 }
             });
@@ -81,7 +81,7 @@ module.exports = {
             stockItems.forEach((stockItem, index) => {
                 fileData += stockItem.id + '|' + stockItem.code + '|' + stockItem.name + '|' + stockItem.id + '|\n';
                 if (stockItems.length === index + 1) { //finally
-                    completeDataFile += fileData + '\n';
+                    completeDataFile += fileData;
                     resolve('B=' + completeDataFile.length + '\n' + completeDataFile);
                 }
             });
@@ -123,7 +123,7 @@ module.exports = {
             operations.forEach((operation, index) => {
                 fileData += operation.id + '|' + operation.code + '|' + operation.name + '|' + operation.id + '|\n';
                 if (operations.length === index + 1) { //finally
-                    completeDataFile += fileData + '\n';
+                    completeDataFile += fileData;
                     resolve('B=' + completeDataFile.length + '\n' + completeDataFile);
                 }
             });
