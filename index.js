@@ -70,10 +70,10 @@ app.post('/terminalData', function (req, res) {
 let httpServer = require('http').createServer(app);
 httpServer.listen(port, function () {
     console.log('info', 'tracksol demo data running on port ' + port + '.');
-    fs.writeFile(file, '[{"event": "waiting for data"}]', function (err) {
+    /*fs.writeFile(file, '[{"event": "waiting for data"}]', function (err) {
         if (err) {
             console.log('error', err);
         }
-    });
+    });*/
 });
 
