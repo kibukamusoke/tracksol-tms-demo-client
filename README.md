@@ -34,7 +34,7 @@ Default Stock Operations:
 
 Sample Terminal Response to Client For Stock Take:
 
-```elixir
+```JAVASCRIPTasELIXIR
 {
     "headers": {
       "host": "tracksol-demo.herokuapp.com",
