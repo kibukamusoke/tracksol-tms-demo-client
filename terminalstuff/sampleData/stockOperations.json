@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "code": "ADD",
+    "name": "Add Stock"
+  },
+  {
+    "id": 2,
+    "code": "SUBTRACT",
+    "name": "Subtract Stock"
+  },
+  {
+    "id": 3,
+    "code": "OVERWRITE",
+    "name": "Overwrite Stock"
+  }
+]

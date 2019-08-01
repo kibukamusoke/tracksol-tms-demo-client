@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "code": "WH1",
+    "name": "Ware House 1"
+  },
+  {
+    "id": 2,
+    "code": "WH2",
+    "name": "Ware House 2"
+  },
+  {
+    "id": 3,
+    "code": "WH3",
+    "name": "Ware House 3"
+  },
+  {
+    "id": 4,
+    "code": "WH4",
+    "name": "Ware House 4"
+  },
+  {
+    "id": 5,
+    "code": "WH5",
+    "name": "Ware House 5"
+  }
+]

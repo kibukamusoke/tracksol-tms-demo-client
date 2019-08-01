@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "code": "PPR1",
+    "name": "Paper Roll 1"
+  },
+  {
+    "id": 2,
+    "code": "PPR2",
+    "name": "Paper Roll 2"
+  },
+  {
+    "id": 3,
+    "code": "PPR3",
+    "name": "Paper Roll 3"
+  },
+  {
+    "id": 4,
+    "code": "PPR4",
+    "name": "Paper Roll 4"
+  },
+  {
+    "id": 5,
+    "code": "PPR5",
+    "name": "Paper Roll 5"
+  }
+]
