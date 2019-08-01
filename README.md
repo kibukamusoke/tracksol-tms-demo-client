@@ -36,64 +36,64 @@ Sample Terminal Response to Client For Stock Take:
 
 ```javascript elixir
 {
-   headers: {
-   host: "tracksol-demo.herokuapp.com",
-   connection: "close",
-   content-type: "application/json",
-   charset: "UTF-8",
-   accept: "application/json",
-   user-agent: "Tracksol-Connect-TMS",
-   tms_identity: "playground4",
-   x-request-id: "ca5ea010-c768-4bdd-9583-1504adab9b4d",
-   x-forwarded-for: "47.254.201.151",
-   x-forwarded-proto: "https",
-   x-forwarded-port: "443",
-   via: "1.1 vegur",
-   connect-time: "1",
-   x-request-start: "1564636047811",
-   total-route-time: "0",
-   content-length: "469"
-   },
-   body: {
-   v: "0.1.7.h",
-   t: "10006F0C1",
-   cardno: "2184779661072642",
-   cardtype: "uid7",
-   txndate: "2019-08-01 13:04:24",
-   act: "90100",
-   seq: "2317",
-   p128: {
-   stockTake: {
-   storeCode: {
-   t: "Ware House 1",
-   k: "1",
-   c: "WH1"
-   },
-   listref: [
-   {
-   stockCode: {
-   t: "Paper Roll 1",
-   k: "1",
-   c: "PPR1"
-   },
-   operation: {
-   t: "Add Stock",
-   k: "1",
-   c: "ADD"
-   },
-   quantity: "12",
-   remark: "HI THERE",
-   _dt_: "2019-08-01 13:04:48"
-   }
-   ]
-   }
-   },
-   p18: "2316",
-   hash: "2",
-   tid: "10006F0C1",
-   ver: "0.1.7.h",
-   tmsId: "playground4"
-   }
-   }
+    "headers": {
+      "host": "tracksol-demo.herokuapp.com",
+      "connection": "close",
+      "content-type": "application/json",
+      "charset": "UTF-8",
+      "accept": "application/json",
+      "user-agent": "Tracksol-Connect-TMS",
+      "tms_identity": "playground4",
+      "x-request-id": "ca5ea010-c768-4bdd-9583-1504adab9b4d",
+      "x-forwarded-for": "47.254.201.151",
+      "x-forwarded-proto": "https",
+      "x-forwarded-port": "443",
+      "via": "1.1 vegur",
+      "connect-time": "1",
+      "x-request-start": "1564636047811",
+      "total-route-time": "0",
+      "content-length": "469"
+    },
+    "body": {
+      "v": "0.1.7.h",
+      "t": "10006F0C1",
+      "cardno": "2184779661072642",
+      "cardtype": "uid7",
+      "txndate": "2019-08-01 13:04:24",
+      "act": "90100",
+      "seq": "2317",
+      "p128": {
+        "stockTake": {
+          "storeCode": {
+            "t": "Ware House 1",
+            "k": "1",
+            "c": "WH1"
+          },
+          "listref": [
+            {
+              "stockCode": {
+                "t": "Paper Roll 1",
+                "k": "1",
+                "c": "PPR1"
+              },
+              "operation": {
+                "t": "Add Stock",
+                "k": "1",
+                "c": "ADD"
+              },
+              "quantity": "12",
+              "remark": "HI THERE",
+              "_dt_": "2019-08-01 13:04:48"
+            }
+          ]
+        }
+      },
+      "p18": "2316",
+      "hash": "2",
+      "tid": "10006F0C1",
+      "ver": "0.1.7.h",
+      "tmsId": "playground4"
+    }
+  }
 
 ```
